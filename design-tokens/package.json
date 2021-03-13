@@ -1,0 +1,16 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "poststart": "cp -rf build/css/light/variables.css ../react-app/public/LightTheme.css && cp -rf build/css/dark/variables.css ../react-app/public/DarkTheme.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^2.10.3"
+  }
+}

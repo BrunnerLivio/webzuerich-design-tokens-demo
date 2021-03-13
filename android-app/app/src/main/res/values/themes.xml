@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Swipsum" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_theme_light_primary_base</item>
+        <item name="colorPrimaryVariant">@color/color_theme_light_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_theme_light_primary_text_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_theme_light_secondary_base</item>
+        <item name="colorSecondaryVariant">@color/color_theme_light_secondary_dark</item>
+        <item name="colorOnSecondary">@color/color_theme_light_secondary_text_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

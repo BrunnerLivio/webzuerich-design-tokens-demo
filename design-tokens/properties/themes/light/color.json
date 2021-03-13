@@ -1,0 +1,21 @@
+{
+  "color": {
+    "theme": {
+      "primary": {
+        "light": { "value": "{color.base.red.light.value}" },
+        "base": { "value": "{color.base.red.base.value}" },
+        "dark": { "value": "{color.base.red.dark.value}" },
+        "textColor": { "value": "{color.base.white.value}" }
+      },
+
+      "secondary": {
+        "light": { "value": "{color.base.pink.light.value}" },
+        "base": { "value": "{color.base.pink.base.value}" },
+        "dark": { "value": "{color.base.pink.dark.value}" },
+        "textColor": { "value": "{color.base.white.value}" }
+      },
+      "textColor": { "value": "{color.base.black.value}" },
+      "backgroundColor": { "value": "{color.base.white.value}"}
+    }
+  }
+}
