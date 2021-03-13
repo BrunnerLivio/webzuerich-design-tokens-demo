@@ -1,37 +1,88 @@
-.App {
-  text-align: center;
+.app {
   background-color: var(--color-theme-background-color);
+  font-family: 'Bebas Neue', cursive;
+}
+
+.hero-header {
   color: var(--color-theme-text-color);
-  min-height: 100vh;
-  min-width: 100%;
-}
-
-.App-header {
+  height: 100vh;
   width: 100%;
-  background-color: var(--color-theme-primary-base);
-  color: var(--color-theme-primary-text-color);
-  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: var(--color-theme-secondary-base);
+  background: linear-gradient(
+    270deg,
+    var(--color-theme-secondary-dark) 0%,
+    var(--color-theme-primary-base) 100%
+  );
 }
 
-h1 {
-  color: var(--color-theme-primary-base);
+.hero-header h1 {
+  color: var(--color-theme-primary-text-color);
+  font-size: 8em;
+  position: relative;
+  z-index: 2;
+  transform: translateY(-100px);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
-.App-btn {
-  background: var(--color-theme-primary-dark);
-  color: var(--color-theme-primary-text-color);
+.hero-header .blob {
+  border-radius: 17% 42% 47% 46% / 60% 33% 60% 40%;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  background: linear-gradient(
+    90deg,
+    var(--color-theme-secondary-dark) 0%,
+    var(--color-theme-primary-base) 100%
+  );
+  z-index: 0;
+}
+
+.wave-container {
+  bottom: -5px;
+  left: 0;
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+}
+
+.wave {
+  fill: var(--color-theme-primary-base);
+}
+
+.linear-gradient-0 {
+  stop-color: var(--color-theme-secondary-dark);
+}
+
+.linear-gradient-1 {
+  stop-color: var(--color-theme-primary-base);
+}
+
+.dark-mode-switcher {
   border: none;
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 1em;
-  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  -webkit-appearance: none;
+  position: absolute;
+  top: 32px;
+  right: 32px;
   cursor: pointer;
-  box-shadow: 0 4px 16px var(--color-theme-primary-dark);
-  transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.App-btn:hover {
-  background: var(--color-theme-primary-base);
-  box-shadow: 0 4px 16px var(--color-theme-primary-base);
+.dark-mode-switcher svg {
+  width: 32px;
+}
+
+.dark-mode-switcher svg path {
+  fill: white;
 }

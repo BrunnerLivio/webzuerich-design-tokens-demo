@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "poststart": "cp -rf build/css/light/variables.css ../react-app/public/LightTheme.css && cp -rf build/css/dark/variables.css ../react-app/public/DarkTheme.css"
+    "build": "node index.js",
+    "build:dev": "nodemon --exec \"npm run build\"",
+    "postbuild": "npm run copy:web",
+    "copy:web": "cp -rf build/css/light/variables.css ../react-app/public/LightTheme.css && cp -rf build/css/dark/variables.css ../react-app/public/DarkTheme.css"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Livio Brunner",
+  "license": "MIT",
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "style-dictionary": "^2.10.3"
   }
 }
