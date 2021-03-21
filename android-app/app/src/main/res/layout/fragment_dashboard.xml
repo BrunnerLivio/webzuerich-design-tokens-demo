@@ -13,10 +13,29 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bebas_neue_regular"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="@color/color_theme_primary_base"
+        android:textSize="@dimen/size_font_large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="371dp"
+        android:layout_height="135dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet diam a nunc lobortis congue in aliquet augue. Duis purus eros, pretium nec consequat ultricies, egestas quis quam. Phasellus ac pellentesque orci. Vivamus sit amet laoreet mi, eget rhoncus enim. Aliquam porta metus id eros tincidunt, in cursus eros suscipit. Nullam tristique id nisi eget elementum. Donec pellentesque magna non arcu condimentum aliquam."
+        android:textColor="@color/color_theme_text_color"
+        android:textSize="@dimen/size_font_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
 </androidx.constraintlayout.widget.ConstraintLayout>

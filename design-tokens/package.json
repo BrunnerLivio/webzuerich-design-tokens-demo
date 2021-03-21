@@ -6,8 +6,9 @@
   "scripts": {
     "build": "node index.js",
     "build:dev": "nodemon --exec \"npm run build\"",
-    "postbuild": "npm run copy:web",
-    "copy:web": "cp -rf build/css/light/variables.css ../react-app/public/LightTheme.css && cp -rf build/css/dark/variables.css ../react-app/public/DarkTheme.css"
+    "postbuild": "npm run copy:web && npm run copy:android",
+    "copy:web": "cp -rf build/css/light/variables.css ../react-app/public/LightTheme.css && cp -rf build/css/dark/variables.css ../react-app/public/DarkTheme.css",
+    "copy:android": "bash ./copy-android.sh"
   },
   "keywords": [],
   "author": "Livio Brunner",
