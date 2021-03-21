@@ -1,5 +1,5 @@
 /build
-app/src/main/res/values/colors.xml
-app/src/main/res/values/font_dimens.xml
-app/src/main/res/values-night/colors.xml
-app/src/main/res/values-night/font_dimens.xml
+src/main/res/values/colors.xml
+src/main/res/values/font_dimens.xml
+src/main/res/values-night/colors.xml
+src/main/res/values-night/font_dimens.xml
