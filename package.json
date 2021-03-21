@@ -1,0 +1,25 @@
+{
+  "name": "webzuerich-design-tokens-demo",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd react-app && yarn install && cd ../design-tokens && yarn install",
+    "start": "concurrently -n design-tokens,react-app -c red,blue \"cd design-tokens && yarn build:dev\" \"cd react-app && yarn start\"",
+    "build": "cd design-tokens && yarn build && cd ../react-app && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunnerLivio/webzuerich-design-tokens-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunnerLivio/webzuerich-design-tokens-demo/issues"
+  },
+  "homepage": "https://github.com/BrunnerLivio/webzuerich-design-tokens-demo#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

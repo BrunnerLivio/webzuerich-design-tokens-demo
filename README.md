@@ -22,27 +22,17 @@ This repo is to showcase Design Tokens using [Style Dictionary](https://amzn.git
 
 ```bash
 git clone git@github.com:BrunnerLivio/webzuerich-design-tokens-demo.git
-cd design-tokens
 yarn
-cd ../react-app
-yarn
-cd ..
 ```
 
-2. Build the Design Tokens
+2. Run in development mode
 
 ```bash
-cd design-tokens
-
-yarn build
-# With automatic reloading on code change
-yarn build:dev
-```
-
-3. Start the React App
-
-```bash
-cd react-app
-
 yarn start
+```
+
+3. Build
+
+```bash
+yarn build
 ```
