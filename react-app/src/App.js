@@ -22,7 +22,7 @@ function App() {
             {isDarkMode ? <Sun /> : <Moon />}
           </button>
           <div class="blob"></div>
-          <h1>Hello Web Zürich</h1>
+          <h1>Aviato</h1>
           <div class="wave-container">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <defs>
@@ -41,7 +41,7 @@ function App() {
         </header>
         <main>
           <div class="content">
-            <h1>ArnoldC is my favorite programming lang</h1>
+            <h1>This is totally not a Silicon Valley reference</h1>
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

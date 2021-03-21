@@ -1,4 +1,4 @@
-package com.example.swipsum
+package com.example.aviato
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

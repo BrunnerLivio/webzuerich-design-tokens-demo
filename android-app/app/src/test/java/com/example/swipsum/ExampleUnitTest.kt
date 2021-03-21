@@ -1,4 +1,4 @@
-package com.example.swipsum
+package com.example.aviato
 
 import org.junit.Test
 
