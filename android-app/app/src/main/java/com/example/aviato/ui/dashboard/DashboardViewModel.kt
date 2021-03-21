@@ -1,13 +1,13 @@
-package com.example.swipsum.ui.home
+package com.example.aviato.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class DashboardViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Hello WebZuerich"
+        value = "This is totally not a Silicon Valley reference"
     }
     val text: LiveData<String> = _text
 }

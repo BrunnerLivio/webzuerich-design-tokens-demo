@@ -10,6 +10,13 @@
         "dark": { "value": "#616161" },
         "darker": { "value": "#212121" }
       },
+      "yellow": {
+        "lighter": { "value": "#fff9c4" },
+        "light": { "value": "#fff176" },
+        "base": { "value": "#ffeb3b" },
+        "dark": { "value": "#fbc02d" },
+        "darker": { "value": "#f57f17" }
+      },
       "red": {
         "lighter": { "value": "#ffcdd2" },
         "light": { "value": "#e57373" },
