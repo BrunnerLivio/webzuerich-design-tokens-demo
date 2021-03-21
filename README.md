@@ -4,6 +4,10 @@
 
 This repo is to showcase Design Tokens using [Style Dictionary](https://amzn.github.io/style-dictionary/#/) by integrating it into an Android Application (Kotlin) and React (JavaScript)
 
+<img src="screenshot-web.png" width="300" alt="Web Application Screenshot" />
+
+<img src="screenshot-mobile.png" width="300" alt="Web Application Screenshot" />
+
 </div>
 
 ## Prerequisites
