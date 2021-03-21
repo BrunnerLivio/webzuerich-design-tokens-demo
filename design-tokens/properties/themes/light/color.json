@@ -2,16 +2,16 @@
   "color": {
     "theme": {
       "primary": {
-        "light": { "value": "{color.base.red.light.value}" },
-        "base": { "value": "{color.base.red.base.value}" },
-        "dark": { "value": "{color.base.red.dark.value}" },
+        "light": { "value": "{color.base.green.light.value}" },
+        "base": { "value": "{color.base.green.base.value}" },
+        "dark": { "value": "{color.base.green.dark.value}" },
         "textColor": { "value": "{color.base.white.value}" }
       },
 
       "secondary": {
-        "light": { "value": "{color.base.pink.light.value}" },
-        "base": { "value": "{color.base.pink.base.value}" },
-        "dark": { "value": "{color.base.pink.dark.value}" },
+        "light": { "value": "{color.base.teal.light.value}" },
+        "base": { "value": "{color.base.teal.base.value}" },
+        "dark": { "value": "{color.base.teal.dark.value}" },
         "textColor": { "value": "{color.base.white.value}" }
       },
       "textColor": { "value": "{color.base.black.value}" },
