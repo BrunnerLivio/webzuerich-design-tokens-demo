@@ -14,7 +14,7 @@ function App() {
         href={isDarkMode ? 'DarkTheme.css' : 'LightTheme.css'}
       />
       <div class="app">
-        <div className="hero-header">
+        <header className="hero-header">
           <button
             onClick={() => setIsDarkMode(!isDarkMode)}
             class="dark-mode-switcher"
@@ -38,7 +38,52 @@ function App() {
               ></path>
             </svg>
           </div>
-        </div>
+        </header>
+        <main>
+          <div class="content">
+            <h1>ArnoldC is my favorite programming lang</h1>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              interdum id tellus a lacinia. Cras convallis turpis id tortor
+              fermentum maximus. In sed ultricies eros, non rhoncus nisi. Nam
+              placerat congue urna ac finibus. Morbi ipsum enim, volutpat eget
+              efficitur vel, efficitur sed sapien. Aliquam fringilla non nisl et
+              eleifend. In varius ullamcorper gravida. Fusce euismod purus
+              hendrerit quam porttitor pharetra. Fusce semper purus purus,
+              blandit finibus lacus tristique et. Maecenas pretium, nisi quis
+              accumsan finibus, ligula lectus lobortis turpis, sagittis
+              fermentum nisi lacus at quam. Pellentesque tincidunt vitae eros
+              vel laoreet. Donec egestas mi sed lacinia porta.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              interdum id tellus a lacinia. Cras convallis turpis id tortor
+              fermentum maximus. In sed ultricies eros, non rhoncus nisi. Nam
+              placerat congue urna ac finibus. Morbi ipsum enim, volutpat eget
+              efficitur vel, efficitur sed sapien. Aliquam fringilla non nisl et
+              eleifend. In varius ullamcorper gravida. Fusce euismod purus
+              hendrerit quam porttitor pharetra. Fusce semper purus purus,
+              blandit finibus lacus tristique et. Maecenas pretium, nisi quis
+              accumsan finibus, ligula lectus lobortis turpis, sagittis
+              fermentum nisi lacus at quam. Pellentesque tincidunt vitae eros
+              vel laoreet. Donec egestas mi sed lacinia porta.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              interdum id tellus a lacinia. Cras convallis turpis id tortor
+              fermentum maximus. In sed ultricies eros, non rhoncus nisi. Nam
+              placerat congue urna ac finibus. Morbi ipsum enim, volutpat eget
+              efficitur vel, efficitur sed sapien. Aliquam fringilla non nisl et
+              eleifend. In varius ullamcorper gravida. Fusce euismod purus
+              hendrerit quam porttitor pharetra. Fusce semper purus purus,
+              blandit finibus lacus tristique et. Maecenas pretium, nisi quis
+              accumsan finibus, ligula lectus lobortis turpis, sagittis
+              fermentum nisi lacus at quam. Pellentesque tincidunt vitae eros
+              vel laoreet. Donec egestas mi sed lacinia porta.
+            </p>
+          </div>
+        </main>
       </div>
     </>
   );
