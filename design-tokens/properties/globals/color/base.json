@@ -23,6 +23,20 @@
         "base": { "value": "#e91e63" },
         "dark": { "value": "#c2185b" },
         "darker": { "value": "#880e4f" }
+      },
+      "green": {
+        "lighter": { "value": "#e8f5e9" },
+        "light": { "value": "#a5d6a7" },
+        "base": { "value": "#66bb6a" },
+        "dark": { "value": "#43a047" },
+        "darker": { "value": "#2e7d32" }
+      },
+      "teal": {
+        "lighter": { "value": "#b2dfdb" },
+        "light": { "value": "#4db6ac" },
+        "base": { "value": "#009688" },
+        "dark": { "value": "#00796b" },
+        "darker": { "value": "#004d40" }
       }
     }
   }
